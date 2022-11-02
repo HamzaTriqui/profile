@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: rgb(248, 244, 244);
+  color: black;
+  font-family: 'Open Sans';
+  font-size: medium;
+  line-height: 1rem;
+}
+
+h1 {
+  color: #114e24;
+  font-family: 'Poppins';
+  font-size: x-large;
+  line-height: 3rem;
+}
+
+h2 {
+  color: #6B5E62;
+  font-family: 'Poppins';
+  font-size: large;
+  line-height: 3rem;
+}
+
+a:hover {
+  color: rgb(10, 10, 11);
+  text-decoration: solid;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fab {
+  font-size: 30px;
+  color: #6B5E62;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  display: inline-flex;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.list-inline li {
+  padding: 14px;
+}
+
+.fab:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
